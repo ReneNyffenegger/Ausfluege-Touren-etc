@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Verkehrswege.kml</name>
+	<open>1</open>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Strassen</name>
+		<open>1</open>
+		<Folder>
+			<name>Winterthur</name>
+			<open>1</open>
+			<Placemark>
+				<name>Bahnhüsli</name>
+				<LookAt>
+					<longitude>8.739976185532125</longitude>
+					<latitude>47.50186172890792</latitude>
+					<altitude>0</altitude>
+					<heading>21.71198821300148</heading>
+					<tilt>49.80511071134311</tilt>
+					<range>237.2746039979509</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.7395817372091,47.50210481830516,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KEB</name>
+				<LookAt>
+					<longitude>8.739976185532125</longitude>
+					<latitude>47.50186172890792</latitude>
+					<altitude>0</altitude>
+					<heading>21.71198821300148</heading>
+					<tilt>49.80511071134311</tilt>
+					<range>237.2746039979509</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.739505995347898,47.50191516668824,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5er Kreuzung</name>
+				<LookAt>
+					<longitude>8.742148944534224</longitude>
+					<latitude>47.4944042944451</latitude>
+					<altitude>0</altitude>
+					<heading>21.71358991032149</heading>
+					<tilt>49.80932772654341</tilt>
+					<range>769.1140999645934</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.741280991049298,47.49391743733692,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hegmatten</name>
+				<LookAt>
+					<longitude>8.762559294038331</longitude>
+					<latitude>47.51017068318174</latitude>
+					<altitude>0</altitude>
+					<heading>26.26808778424638</heading>
+					<tilt>4.500781910088029</tilt>
+					<range>500.3611126524253</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.761746733558409,47.51072977414187,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Geiselweid</name>
+				<LookAt>
+					<longitude>8.740684929030556</longitude>
+					<latitude>47.49553849189242</latitude>
+					<altitude>0</altitude>
+					<heading>-2.527465793727603</heading>
+					<tilt>16.59172034152639</tilt>
+					<range>643.4199340010997</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.741418549205044,47.49602213295348,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brockenhaus Blaues Kreuz</name>
+				<LookAt>
+					<longitude>8.766063423908339</longitude>
+					<latitude>47.4950016334855</latitude>
+					<altitude>0</altitude>
+					<heading>26.54054536832229</heading>
+					<tilt>38.81832178028653</tilt>
+					<range>420.8768222035779</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.765439493195244,47.4949806496428,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tösstalstrasse</name>
+				<description>Tösstalstrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.732866216620662,47.49786281914809,0 8.737812959825241,47.49508788103345,0 8.741294804455777,47.49398252051277,0 8.759614464789218,47.48451370539722,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Römerstrasse</name>
+				<description>Römerstrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.733651654863529,47.50020367263878,0 8.741819863578936,47.50109834056806,0 8.745189876845743,47.50025818290631,0 8.747732842975912,47.50168425915218,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>St. Galler Strasse</name>
+				<description>St. Galler Strasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.733401932254058,47.49836456406221,0 8.745842477519723,47.49811299633691,0 8.752218374745709,47.49837113261087,0 8.758025467234663,47.49866607391307,0 8.775477642162175,47.5026599722296,0 8.798828029577347,47.49787834311388,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Seenerstrasse</name>
+				<description>Seenerstrasse</description>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.762545138223111,47.49955357829077,0 8.762753246144925,47.49806018842997,0 8.759446292736454,47.49185446109235,0 8.758847602895813,47.48714294041844,0 8.759640813449172,47.48453158467228,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Grüzefeldstrasse</name>
+				<description>Grüzefeldstrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.746051351556289,47.49796285153725,0 8.748486093016634,47.49572874656401,0 8.753203926942062,47.49394119056322,0 8.759521212254025,47.49193037642741,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Pflanzschulstrasse</name>
+				<description>Pflanzschulstrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.741284706380421,47.49400361547776,0 8.741159582699524,47.49426364700884,0 8.741109601684139,47.49440931060532,0 8.7397426757692,47.4982547806753,0 8.739052428503936,47.50074103491634,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Oberer Deutweg</name>
+				<description>Oberer Deutweg</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.741393883195949,47.49398099938324,0 8.743185537138876,47.49478826804104,0 8.7469560572879,47.49673409188943,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Industriestrasse</name>
+				<description>Industriestrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.747873444954193,47.49626999164025,0 8.747932487330321,47.49625942570631,0 8.755689300817426,47.49659157904889,0 8.762756061443239,47.49812713406377,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Frauenfelderstrasse</name>
+				<description>Frauenfelderstrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.747838022683617,47.50167799845514,0 8.755135236506096,47.50476981855096,0 8.759398091233146,47.50730364617767,0 8.76007682804574,47.51079067151047,0 8.771344808336011,47.52226031846085,0 8.774133362257144,47.53051667365329,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Töss - 5er Kreuzung</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.704494632701605,47.48425609497948,0 8.708348388246366,47.48524593734024,0 8.711247057055488,47.48428554015877,0 8.717097576943637,47.49011563008106,0 8.721182352064027,47.49059089726529,0 8.731274914143993,47.48948377010544,0 8.741426687459255,47.49394963879859,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Neuburg - Töss</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.674218380770478,47.49505240146576,0 8.703300845420976,47.47730476822509,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Töss 1</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.703255859618512,47.47731064087806,0 8.704916218591123,47.48049077162955,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Töss 2</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.704916013038048,47.48046050952898,0 8.703877192626198,47.48318754914113,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Töss 3</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.703860315543965,47.48313608030849,0 8.704781102095891,47.4835000869429,0 8.704643401237615,47.48426156518488,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
