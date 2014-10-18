@@ -519,6 +519,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Konkordiahütte</name>
+				<description>2850 MüM</description>
 				<LookAt>
 					<longitude>8.053597681067835</longitude>
 					<latitude>46.50052047858112</latitude>
