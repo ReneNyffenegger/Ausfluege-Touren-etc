@@ -3,6 +3,16 @@
 <Document>
 	<name>Verkehrswege.kml</name>
 	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -72,6 +82,15 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -136,7 +155,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
@@ -207,6 +226,15 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -219,15 +247,6 @@
 			<color>ffffff00</color>
 			<width>2</width>
 		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
 	</Style>
 	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
@@ -287,6 +306,15 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
@@ -307,7 +335,7 @@
 			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin20</styleUrl>
@@ -535,13 +563,30 @@
 				</Point>
 			</Placemark>
 			<Placemark>
+				<name>B+T L</name>
+				<LookAt>
+					<longitude>8.759101375618409</longitude>
+					<latitude>47.4827737785787</latitude>
+					<altitude>0</altitude>
+					<heading>22.71695664986529</heading>
+					<tilt>13.9033635232534</tilt>
+					<range>94.0133648174272</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.759002559927039,47.48290481752696,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
 				<name>Tösstalstrasse</name>
 				<description>Tösstalstrasse</description>
-				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						8.732583107258389,47.49801681749129,0 8.737812959825241,47.49508788103345,0 8.741294804455777,47.49398252051277,0 8.759614464789218,47.48451370539722,0 
+						8.732583107258389,47.49801681749129,0 8.737812959825241,47.49508788103345,0 8.741294804455777,47.49398252051277,0 8.759614464789218,47.48451370539722,0 8.76208747752565,47.48234470633832,0 8.766595779440916,47.47796508605067,0 8.766065047039628,47.4732505168766,0 8.764905973003138,47.47009261439936,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -702,7 +747,7 @@
 			<Placemark>
 				<name>Wiesendangerstrasse</name>
 				<description>Wiesendangerstrasse</description>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -713,7 +758,7 @@
 			<Placemark>
 				<name>Stationsstrasse</name>
 				<description>Stationsstrasse</description>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -735,7 +780,7 @@
 			<Placemark>
 				<name>Stadlerstrasse</name>
 				<description>Stadlerstrasse</description>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -746,7 +791,7 @@
 			<Placemark>
 				<name>Ohringerstrasse</name>
 				<description>Ohringerstrasse</description>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin4</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -773,6 +818,28 @@
 					<tessellate>1</tessellate>
 					<coordinates>
 						8.702409414690603,47.48794206945392,0 8.702714169629369,47.48907275570597,0 8.716943546613328,47.49788164767556,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Steinackerweg</name>
+				<description>Steinackerweg</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.759449692427863,47.48452762995906,0 8.75636281815237,47.48389611507982,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Hofmannstrasse</name>
+				<description>Hofmannstrasse</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						8.758282726090261,47.48425868366517,0 8.758876263595925,47.48227497912569,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -829,7 +896,6 @@
 		</Folder>
 		<Folder>
 			<name>Autobahnen</name>
-			<open>1</open>
 			<Placemark>
 				<name>A1</name>
 				<description>A1</description>
