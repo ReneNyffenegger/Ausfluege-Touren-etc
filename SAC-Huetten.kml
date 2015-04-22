@@ -3,6 +3,63 @@
 <Document>
 	<name>GoogleEarth.kml</name>
 	<open>1</open>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -21,7 +78,17 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -39,7 +106,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin1">
+	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -48,45 +115,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>SAC</name>
 		<Folder>
@@ -1071,6 +1099,23 @@ Aufstieg
 			<name>Wallis</name>
 			<open>1</open>
 			<Placemark>
+				<name>Belalp</name>
+				<LookAt>
+					<longitude>7.974166999766837</longitude>
+					<latitude>46.37138899950909</latitude>
+					<altitude>0</altitude>
+					<heading>-1.688445160975129e-010</heading>
+					<tilt>0</tilt>
+					<range>999.9033647784573</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.974166999766837,46.37138899950909,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
 				<name>Bettmeralp</name>
 				<LookAt>
 					<longitude>8.062568662324308</longitude>
@@ -1119,6 +1164,648 @@ Aufstieg
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>8.026182501191002,46.37612595292092,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Berggipfel</name>
+		<open>1</open>
+		<Folder>
+			<name>Wallis</name>
+			<open>1</open>
+			<Placemark>
+				<name>Alphubel (4206 m)</name>
+				<LookAt>
+					<longitude>7.864567900031381</longitude>
+					<latitude>46.06199899988369</latitude>
+					<altitude>0</altitude>
+					<heading>2.250083409401364e-011</heading>
+					<tilt>0</tilt>
+					<range>999.9999369555048</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.86456790003138,46.06199899988369,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Allalinhorn (4027 m)</name>
+				<LookAt>
+					<longitude>7.897808186567386</longitude>
+					<latitude>46.04600142428841</latitude>
+					<altitude>0</altitude>
+					<heading>-21.28151875158297</heading>
+					<tilt>45.07861806570568</tilt>
+					<range>1144.09149401064</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.894540489222575,46.04613401051527,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Breithorn (4165 m)</name>
+				<LookAt>
+					<longitude>7.741640533951694</longitude>
+					<latitude>45.95991280352056</latitude>
+					<altitude>0</altitude>
+					<heading>-4.47418764889854</heading>
+					<tilt>55.93027421896042</tilt>
+					<range>3544.904260720937</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.747965921400677,45.94076858379066,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bishorn (4153 m)</name>
+				<LookAt>
+					<longitude>7.71493159999786</longitude>
+					<latitude>46.11794740003436</latitude>
+					<altitude>0</altitude>
+					<heading>-1.44317668671407e-012</heading>
+					<tilt>0</tilt>
+					<range>1000.000130640186</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.714931599997861,46.11794740003436,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Castor (4226 m)</name>
+				<LookAt>
+					<longitude>7.793359999936296</longitude>
+					<latitude>45.92089999973613</latitude>
+					<altitude>0</altitude>
+					<heading>-4.593436584836648e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000013735334</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.793359999936296,45.92089999973613,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dent Blanche (4357 m)</name>
+				<LookAt>
+					<longitude>7.611889900040758</longitude>
+					<latitude>46.03486790003271</latitude>
+					<altitude>0</altitude>
+					<heading>2.924201974137557e-011</heading>
+					<tilt>0</tilt>
+					<range>999.9996643588254</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.611889900040758,46.03486790003271,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dent d&apos;Hérens (4171 m)</name>
+				<LookAt>
+					<longitude>7.605105599913955</longitude>
+					<latitude>45.96997119981624</latitude>
+					<altitude>0</altitude>
+					<heading>-6.184668091972844e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000111868159</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.605105599913955,45.96997119981623,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dom (4545 m)</name>
+				<LookAt>
+					<longitude>7.858882300190009</longitude>
+					<latitude>46.09386880007554</latitude>
+					<altitude>0</altitude>
+					<heading>1.368457505859789e-010</heading>
+					<tilt>0</tilt>
+					<range>1000.002108014524</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.858882300190009,46.09386880007554,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dufourspitze (4634 m)</name>
+				<LookAt>
+					<longitude>7.866784872696108</longitude>
+					<latitude>45.93709763008085</latitude>
+					<altitude>0</altitude>
+					<heading>-4.28631861764057</heading>
+					<tilt>12.42607600744519</tilt>
+					<range>762.7676708323191</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.866784872696108,45.93709763008086,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dürrenhorn (4035 m)</name>
+				<LookAt>
+					<longitude>7.848055999955688</longitude>
+					<latitude>46.11972199987694</latitude>
+					<altitude>0</altitude>
+					<heading>-3.206158146649298e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000082940369</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.848055999955688,46.11972199987694,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grand Combin (4314 m)</name>
+				<LookAt>
+					<longitude>7.298899399957699</longitude>
+					<latitude>45.93688059993741</latitude>
+					<altitude>0</altitude>
+					<heading>-3.03575992958989e-011</heading>
+					<tilt>0</tilt>
+					<range>999.9998862031155</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.298899399957699,45.93688059993742,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grand Combin de Valsorey (4184 m)</name>
+				<LookAt>
+					<longitude>7.290220800036892</longitude>
+					<latitude>45.93799820009776</latitude>
+					<altitude>0</altitude>
+					<heading>2.639939899481756e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000034656294</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.290220800036891,45.93799820009777,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grand Combin de la Tsessette (4141 m)</name>
+				<LookAt>
+					<longitude>7.311336006658271</longitude>
+					<latitude>45.96182210270202</latitude>
+					<altitude>0</altitude>
+					<heading>-0.6383194094418225</heading>
+					<tilt>70.42759088853676</tilt>
+					<range>3419.295985377222</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.310997762369153,45.94287008683754,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hohberghorn (4219 m)</name>
+				<LookAt>
+					<longitude>7.85386099994341</longitude>
+					<latitude>46.11269400000617</latitude>
+					<altitude>0</altitude>
+					<heading>-4.06928117333146e-011</heading>
+					<tilt>0</tilt>
+					<range>999.9999791145747</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.853860999943409,46.11269400000617,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lagginhorn (4010 m)</name>
+				<LookAt>
+					<longitude>8.00311000071283</longitude>
+					<latitude>46.15709999976414</latitude>
+					<altitude>0</altitude>
+					<heading>5.140563552528705e-010</heading>
+					<tilt>0</tilt>
+					<range>1000.000592809208</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.00311000071283,46.15709999976414,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lenzspitze (4249 m)</name>
+				<LookAt>
+					<longitude>7.868510000114206</longitude>
+					<latitude>46.1045999995368</latitude>
+					<altitude>0</altitude>
+					<heading>8.229208155084632e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000068575711</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.868769659399759,46.10490155403885,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Liskamm (4527 m)</name>
+				<LookAt>
+					<longitude>7.834794843200542</longitude>
+					<latitude>45.92183497582349</latitude>
+					<altitude>0</altitude>
+					<heading>9.000835417693615</heading>
+					<tilt>33.28336930855108</tilt>
+					<range>527.0898520874583</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.834756556552549,45.92297127768725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ludwigshöhe (4341 m)</name>
+				<description>Südlichster 4000er der Schweiz</description>
+				<LookAt>
+					<longitude>7.863711999939699</longitude>
+					<latitude>45.91666000105928</latitude>
+					<altitude>0</altitude>
+					<heading>1.049999999956637</heading>
+					<tilt>0</tilt>
+					<range>3199.999811943017</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.863711999939699,45.91666000105929,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nadelhorn (4327 m)</name>
+				<LookAt>
+					<longitude>7.863263657077844</longitude>
+					<latitude>46.10980919998656</latitude>
+					<altitude>0</altitude>
+					<heading>-13.50058041545764</heading>
+					<tilt>0.1593767244156299</tilt>
+					<range>673.2344708775945</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.864026643935517,46.10926753208577,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Matterhorn (4478 m)</name>
+				<LookAt>
+					<longitude>7.658556918272907</longitude>
+					<latitude>45.97685780550075</latitude>
+					<altitude>0</altitude>
+					<heading>-148.4999257882038</heading>
+					<tilt>57.3480494169415</tilt>
+					<range>188.8018068537289</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.658588521898164,45.9765364688167,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parrotsptize (4432 m)</name>
+				<LookAt>
+					<longitude>7.871325568867611</longitude>
+					<latitude>45.91930637637091</latitude>
+					<altitude>0</altitude>
+					<heading>0.4287727418791197</heading>
+					<tilt>11.9483483317978</tilt>
+					<range>809.8967806345386</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.871147271499521,45.91963823699092,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nordend (4609 m)</name>
+				<LookAt>
+					<longitude>7.911461098634103</longitude>
+					<latitude>45.94380845210029</latitude>
+					<altitude>0</altitude>
+					<heading>86.38700973682222</heading>
+					<tilt>52.62629513232447</tilt>
+					<range>4362.507501846962</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.86996741531329,45.94208716565838,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ober Gabelhorn (4063 m)</name>
+				<LookAt>
+					<longitude>7.668487500198705</longitude>
+					<latitude>46.03717080006771</latitude>
+					<altitude>0</altitude>
+					<heading>1.430875891483511e-010</heading>
+					<tilt>0</tilt>
+					<range>999.999938038858</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.668487500198705,46.03717080006771,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pollux (4091 m)</name>
+				<LookAt>
+					<longitude>7.785243199817686</longitude>
+					<latitude>45.92775169967914</latitude>
+					<altitude>0</altitude>
+					<heading>-1.309625195639418e-010</heading>
+					<tilt>0</tilt>
+					<range>1000.000076459268</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.785243199817686,45.92775169967914,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rimpfischhorn (4199 m)</name>
+				<LookAt>
+					<longitude>7.883476297408019</longitude>
+					<latitude>46.02147039174045</latitude>
+					<altitude>0</altitude>
+					<heading>6.171892657306196</heading>
+					<tilt>36.79401490441281</tilt>
+					<range>932.8678385574294</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.884068290554023,46.02294062412755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roccia Nera (4075 m)</name>
+				<LookAt>
+					<longitude>7.775176299860307</longitude>
+					<latitude>45.9326636001727</latitude>
+					<altitude>0</altitude>
+					<heading>-1.005818612466023e-010</heading>
+					<tilt>0</tilt>
+					<range>1000.000046261355</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.775176299860307,45.9326636001727,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Schwarzhorn (4321 m)</name>
+				<LookAt>
+					<longitude>8.075194550493318</longitude>
+					<latitude>46.68427169204964</latitude>
+					<altitude>0</altitude>
+					<heading>-0.8574011910009194</heading>
+					<tilt>54.15805601756206</tilt>
+					<range>660.2036560776769</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.075576243309692,46.68605700988205,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Signalkuppe (4556 m)</name>
+				<LookAt>
+					<longitude>7.875774104823954</longitude>
+					<latitude>45.9273259231849</latitude>
+					<altitude>0</altitude>
+					<heading>135.8562978646969</heading>
+					<tilt>50.34153740621075</tilt>
+					<range>389.2985804049906</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.876552855599019,45.92704306735886,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stecknadelhorn (4241 m)</name>
+				<LookAt>
+					<longitude>7.859483599957427</longitude>
+					<latitude>46.11148289992731</latitude>
+					<altitude>0</altitude>
+					<heading>-3.07981061192816e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000217173731</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.859483599957427,46.11148289992731,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Strahlhorn (4190 m)</name>
+				<LookAt>
+					<longitude>7.90212350013269</longitude>
+					<latitude>46.013159199902</latitude>
+					<altitude>0</altitude>
+					<heading>9.53697272623539e-011</heading>
+					<tilt>0</tilt>
+					<range>999.6885275083957</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.90212350013269,46.01315919990201,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Täschhorn (4491 m)</name>
+				<LookAt>
+					<longitude>8.312747168371152</longitude>
+					<latitude>45.9438635181318</latitude>
+					<altitude>0</altitude>
+					<heading>113.8994022593945</heading>
+					<tilt>86.19277765621104</tilt>
+					<range>38885.34401964272</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.856672435340197,46.0834166207414,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Weisshorn (4505 m)</name>
+				<LookAt>
+					<longitude>7.715931864898629</longitude>
+					<latitude>46.10003292708754</latitude>
+					<altitude>0</altitude>
+					<heading>3.42841511729843</heading>
+					<tilt>71.83997489853441</tilt>
+					<range>898.8650355564807</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.715997243928499,46.10155379726771,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Weissmies (4023 m)</name>
+				<LookAt>
+					<longitude>8.012023599568391</longitude>
+					<latitude>46.12774740037021</latitude>
+					<altitude>0</altitude>
+					<heading>-3.114136748327854e-010</heading>
+					<tilt>0</tilt>
+					<range>1000.000242631272</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.012023599568391,46.12774740037021,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zinalrothorn (4221 m)</name>
+				<LookAt>
+					<longitude>7.690027299968985</longitude>
+					<latitude>46.06360599972646</latitude>
+					<altitude>0</altitude>
+					<heading>-2.238394870946987e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.000130564047</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.690027299968985,46.06360599972646,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zumsteinspitze (4563 m)</name>
+				<LookAt>
+					<longitude>7.871938407925333</longitude>
+					<latitude>45.93229811006721</latitude>
+					<altitude>0</altitude>
+					<heading>-59.57108070793999</heading>
+					<tilt>52.42302247076056</tilt>
+					<range>265.9780746037398</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.871498120315701,45.93204740610753,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Italien</name>
+			<open>1</open>
+			<Placemark>
+				<name>Punta Giordani (4064 m)</name>
+				<LookAt>
+					<longitude>7.86666673151629</longitude>
+					<latitude>45.90000768147176</latitude>
+					<altitude>0</altitude>
+					<heading>2.326369888088805e-008</heading>
+					<tilt>0</tilt>
+					<range>11129.80278770115</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.86666673151629,45.90000768147176,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vincent-Pyramide (4215 m)</name>
+				<LookAt>
+					<longitude>7.862447146771056</longitude>
+					<latitude>45.90313032681392</latitude>
+					<altitude>0</altitude>
+					<heading>-2.142313348108581</heading>
+					<tilt>46.5088948685987</tilt>
+					<range>2879.622273370841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.863062674802642,45.9072092615285,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
