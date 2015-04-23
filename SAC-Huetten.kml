@@ -3,24 +3,6 @@
 <Document>
 	<name>GoogleEarth.kml</name>
 	<open>1</open>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -31,6 +13,43 @@
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -41,37 +60,9 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin00">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -88,9 +79,18 @@
 			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl2">
+	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -115,12 +115,149 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Folder>
 		<name>SAC</name>
+		<open>1</open>
+		<Folder>
+			<name>T2</name>
+			<open>1</open>
+			<Placemark>
+				<name>Cabane des Dix (2928 m)</name>
+				<LookAt>
+					<longitude>7.417750000139702</longitude>
+					<latitude>46.01107999992729</latitude>
+					<altitude>0</altitude>
+					<heading>1.050000000100444</heading>
+					<tilt>0</tilt>
+					<range>3200.000107379497</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.417750000139702,46.01107999992729,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ela-Hütte (2252 m)</name>
+				<LookAt>
+					<longitude>9.691667000590279</longitude>
+					<latitude>46.61861099842444</latitude>
+					<altitude>0</altitude>
+					<heading>1.050000000428947</heading>
+					<tilt>0</tilt>
+					<range>3198.488255814278</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>9.691666998462861,46.61861099868735,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Etzlihütte</name>
+				<LookAt>
+					<longitude>8.721667000399711</longitude>
+					<latitude>46.71944400026918</latitude>
+					<altitude>0</altitude>
+					<heading>1.050000000290938</heading>
+					<tilt>0</tilt>
+					<range>3199.292661437322</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.721667000399711,46.71944400026917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hundsteinhütte</name>
+				<LookAt>
+					<longitude>9.422331999887277</longitude>
+					<latitude>47.25484400161964</latitude>
+					<altitude>0</altitude>
+					<heading>1.049999999917154</heading>
+					<tilt>0</tilt>
+					<range>3199.999922639732</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>9.422331999887277,47.25484400161964,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Leutschachhütte (2392 m)</name>
+				<LookAt>
+					<longitude>8.601140000637775</longitude>
+					<latitude>46.78372000098752</latitude>
+					<altitude>0</altitude>
+					<heading>1.050000000464805</heading>
+					<tilt>0</tilt>
+					<range>3200.000016506294</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.601140000637775,46.78372000098752,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spitzmeilenhütte (2087 m)</name>
+				<LookAt>
+					<longitude>9.250613999389479</longitude>
+					<latitude>47.03425200003036</latitude>
+					<altitude>0</altitude>
+					<heading>1.049999999553198</heading>
+					<tilt>0</tilt>
+					<range>3183.864491694174</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>9.250613999389479,47.03425200003036,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 		<Folder>
 			<name>T3</name>
+			<visibility>0</visibility>
 			<Placemark>
 				<name>Almageller Hütte</name>
+				<visibility>0</visibility>
 				<description>2894 MüM
 
 Aufstieg: 4½ Std.
@@ -147,6 +284,7 @@ http://www.almagellerhuette.ch/</description>
 			</Placemark>
 			<Placemark>
 				<name>Alzascahütte</name>
+				<visibility>0</visibility>
 				<description>aka: Capanna Alzasca
 
 1734 MüM
@@ -174,6 +312,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Badushütte</name>
+				<visibility>0</visibility>
 				<description>2505 MüM
 
 Aufstieg
@@ -196,6 +335,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Balmhornhütte</name>
+				<visibility>0</visibility>
 				<description>1955 MüM</description>
 				<LookAt>
 					<longitude>7.689541550023479</longitude>
@@ -214,6 +354,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Binntalhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.29188000021362</longitude>
 					<latitude>46.37470000005189</latitude>
@@ -231,6 +372,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Blüemlisalphütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.771659999923644</longitude>
 					<latitude>46.51009999986546</latitude>
@@ -248,6 +390,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Bordierhütte (T3-T4)</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.849526852261479</longitude>
 					<latitude>46.14458401815973</latitude>
@@ -265,6 +408,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Campo Tencia Hütte</name>
+				<visibility>0</visibility>
 				<description>aka: Capanna Campo Tencia</description>
 				<LookAt>
 					<longitude>8.73400989512982</longitude>
@@ -283,6 +427,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Cavardirashütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.814882464217428</longitude>
 					<latitude>46.74268857433597</latitude>
@@ -300,6 +445,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Chalinhütte</name>
+				<visibility>0</visibility>
 				<description>aka: Refuge de Chalin</description>
 				<LookAt>
 					<longitude>6.947060997766665</longitude>
@@ -318,6 +464,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Chanrionhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.380800506983247</longitude>
 					<latitude>45.93932258966314</latitude>
@@ -335,6 +482,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Chelenalphütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.440278866408104</longitude>
 					<latitude>46.67162113228446</latitude>
@@ -352,6 +500,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Claridenhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.935548926831631</longitude>
 					<latitude>46.85999954451759</latitude>
@@ -369,6 +518,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Cufercalhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>9.358701006195206</longitude>
 					<latitude>46.59362960800706</latitude>
@@ -386,6 +536,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Dammahütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.458042044837546</longitude>
 					<latitude>46.64551620928438</latitude>
@@ -403,6 +554,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Doldenhornhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.697748863130792</longitude>
 					<latitude>46.48711684273427</latitude>
@@ -420,6 +572,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Enderlinhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>9.551399260245248</longitude>
 					<latitude>47.03881971714951</latitude>
@@ -437,6 +590,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Finsteraarhornhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.114597309526179</longitude>
 					<latitude>46.52177042463072</latitude>
@@ -454,6 +608,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Fornohütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>9.709522070346111</longitude>
 					<latitude>46.33184080981649</latitude>
@@ -471,6 +626,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Fridolinshütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.949864959216066</longitude>
 					<latitude>46.82127298747382</latitude>
@@ -488,6 +644,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Fründenhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.741955000634945</longitude>
 					<latitude>46.49555731415917</latitude>
@@ -505,6 +662,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Gaulihütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.215585118531267</longitude>
 					<latitude>46.62330336739597</latitude>
@@ -522,6 +680,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Glecksteinhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.096344970935679</longitude>
 					<latitude>46.62596676345059</latitude>
@@ -539,6 +698,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Hörnlihütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.677069000079864</longitude>
 					<latitude>45.98230200031254</latitude>
@@ -556,6 +716,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Hüfihütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.818962982082152</longitude>
 					<latitude>46.81096369778449</latitude>
@@ -573,6 +734,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Konkordiahütte</name>
+				<visibility>0</visibility>
 				<description>2850 MüM</description>
 				<LookAt>
 					<longitude>8.053597681067835</longitude>
@@ -591,6 +753,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Kröntenhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.575296805744562</longitude>
 					<latitude>46.80119957763613</latitude>
@@ -608,6 +771,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Lagginbiwak</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.04536841521772</longitude>
 					<latitude>46.16449770938039</latitude>
@@ -625,6 +789,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Lämmerenhütte (T2-T3)</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.574482596661051</longitude>
 					<latitude>46.40008457897403</latitude>
@@ -642,6 +807,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Lauteraarhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.222157861412908</longitude>
 					<latitude>46.57009130194191</latitude>
@@ -659,6 +825,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Martinsmadhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>9.188554287726859</longitude>
 					<latitude>46.8925574730936</latitude>
@@ -676,6 +843,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Mont Fort Hütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.318272215517188</longitude>
 					<latitude>46.07969901020054</latitude>
@@ -693,6 +861,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Monte Leone Hütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.080278703710905</longitude>
 					<latitude>46.2605090000218</latitude>
@@ -710,6 +879,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Mountethütte</name>
+				<visibility>0</visibility>
 				<description>aka: Cabane du Mountet</description>
 				<LookAt>
 					<longitude>7.653722936273741</longitude>
@@ -728,6 +898,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Mutthornhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.831763721620688</longitude>
 					<latitude>46.49006098440088</latitude>
@@ -745,6 +916,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Muttseehütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>9.018705988392332</longitude>
 					<latitude>46.85787470204999</latitude>
@@ -762,6 +934,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Neuvehütte</name>
+				<visibility>0</visibility>
 				<description>aka: Cabane de l&apos;A Neuve</description>
 				<LookAt>
 					<longitude>7.067027981175471</longitude>
@@ -780,6 +953,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Oberaletschhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.973432341538206</longitude>
 					<latitude>46.42532701118839</latitude>
@@ -797,6 +971,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Ornyhütte</name>
+				<visibility>0</visibility>
 				<description>aka: Cabane d&apos;Orny</description>
 				<LookAt>
 					<longitude>7.0628593327512</longitude>
@@ -815,6 +990,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Planurahütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.880275332267047</longitude>
 					<latitude>46.82024917436162</latitude>
@@ -832,6 +1008,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Puntegliashütte</name>
+				<visibility>0</visibility>
 				<description>aka: Camona da Punteglias</description>
 				<LookAt>
 					<longitude>8.956166772966476</longitude>
@@ -850,6 +1027,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Rotondohütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.48440050373728</longitude>
 					<latitude>46.54511936178039</latitude>
@@ -867,6 +1045,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Sasc Furä Hütte</name>
+				<visibility>0</visibility>
 				<description>aka: Capanna Sasc Furä</description>
 				<LookAt>
 					<longitude>9.582533733386672</longitude>
@@ -885,6 +1064,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Sciorahütte</name>
+				<visibility>0</visibility>
 				<description>aka: Capanna die Sciora</description>
 				<LookAt>
 					<longitude>9.609909464445734</longitude>
@@ -903,6 +1083,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Silvrettahütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>10.04138534563797</longitude>
 					<latitude>46.85452207743688</latitude>
@@ -920,6 +1101,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Spannorthütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.509727440864694</longitude>
 					<latitude>46.80011582685132</latitude>
@@ -937,6 +1119,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Susanfehütte</name>
+				<visibility>0</visibility>
 				<description>aka: Cabana de Susanfe</description>
 				<LookAt>
 					<longitude>6.898206939134616</longitude>
@@ -955,6 +1138,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Tierberglihütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.414134065952725</longitude>
 					<latitude>46.71541623799966</latitude>
@@ -972,6 +1156,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Topalihütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.762656382101163</longitude>
 					<latitude>46.15774883322411</latitude>
@@ -989,6 +1174,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Tracuithütte</name>
+				<visibility>0</visibility>
 				<description>aka: Cabane de Tracuit</description>
 				<LookAt>
 					<longitude>7.67978712744723</longitude>
@@ -1007,6 +1193,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Voralphütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>8.48764211028031</longitude>
 					<latitude>46.69059749005169</latitude>
@@ -1024,6 +1211,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Weisshornhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.743583491709815</longitude>
 					<latitude>46.08575260380102</latitude>
@@ -1041,6 +1229,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Weissmieshütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.977951025018497</longitude>
 					<latitude>46.14368147153729</latitude>
@@ -1058,6 +1247,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Wildstrubelhütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>7.468918824562998</longitude>
 					<latitude>46.38225723835908</latitude>
@@ -1075,6 +1265,7 @@ Aufstieg
 			</Placemark>
 			<Placemark>
 				<name>Zapporthütte</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<longitude>9.093781462089517</longitude>
 					<latitude>46.49999248706541</latitude>
@@ -1094,7 +1285,6 @@ Aufstieg
 	</Folder>
 	<Folder>
 		<name>Ausflugsziele</name>
-		<open>1</open>
 		<Folder>
 			<name>Wallis</name>
 			<open>1</open>
@@ -1173,7 +1363,6 @@ Aufstieg
 		<open>1</open>
 		<Folder>
 			<name>Wallis</name>
-			<open>1</open>
 			<Placemark>
 				<name>Alphubel (4206 m)</name>
 				<LookAt>
@@ -1205,7 +1394,7 @@ Aufstieg
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>7.894540489222575,46.04613401051527,0</coordinates>
+					<coordinates>7.894540489222575,46.04613401051526,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -1443,7 +1632,7 @@ Aufstieg
 				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>7.868769659399759,46.10490155403885,0</coordinates>
+					<coordinates>7.868769659399759,46.10490155403884,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
