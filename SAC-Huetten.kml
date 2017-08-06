@@ -3,7 +3,57 @@
 <Document>
 	<name>GoogleEarth.kml</name>
 	<open>1</open>
-	<Style id="s_ylw-pushpin0">
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin30">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -22,18 +72,18 @@
 			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="s_ylw-pushpin1">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00">
+	<Style id="s_ylw-pushpin00">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -49,27 +99,27 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin10</styleUrl>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl01">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -77,38 +127,17 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>ff00aaff</color>
-			<width>5</width>
-		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="s_ylw-pushpin_hl2">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -130,13 +159,22 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin2</styleUrl>
+			<styleUrl>#s_ylw-pushpin21</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl3">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -146,19 +184,9 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl01">
+	<Style id="s_ylw-pushpin20">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -175,44 +203,6 @@
 			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin20">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="s_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -226,26 +216,7 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin30">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl000">
+	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -254,7 +225,64 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin10">
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin21">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1636,6 +1664,7 @@ Fr: Becca d&apos;Audon</description>
 		</Folder>
 		<Folder>
 			<name>Glarus</name>
+			<open>1</open>
 			<Placemark>
 				<name>Tödi</name>
 				<LookAt>
@@ -1670,7 +1699,7 @@ Fr: Becca d&apos;Audon</description>
 					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>9.239598578346964,46.90791924037354,0</coordinates>
+						<coordinates>9.239598578346964,46.90791924037353,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1707,45 +1736,116 @@ Fr: Becca d&apos;Audon</description>
 						<coordinates>9.251359609988562,46.9219924628762,0</coordinates>
 					</Point>
 				</Placemark>
-				<Placemark>
-					<name>Bündner Vorab (3028 m)</name>
-					<LookAt>
-						<longitude>9.154703873095386</longitude>
-						<latitude>46.87505002977696</latitude>
-						<altitude>0</altitude>
-						<heading>6.429880568666945</heading>
-						<tilt>0</tilt>
-						<range>1147.111143017281</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>9.156857326801342,46.87382874456873,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Glarner Vorab (3018 m)</name>
-					<LookAt>
-						<longitude>9.152683914788327</longitude>
-						<latitude>46.87813450631111</latitude>
-						<altitude>0</altitude>
-						<heading>6.088554090846057</heading>
-						<tilt>0.1117269460669123</tilt>
-						<range>1130.501975379982</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>9.152912051565876,46.87977827840201,0</coordinates>
-					</Point>
-				</Placemark>
+				<Folder>
+					<name>Vorab</name>
+					<open>1</open>
+					<Placemark>
+						<name>Glarner Vorab (3018 m)</name>
+						<LookAt>
+							<longitude>9.152683914788327</longitude>
+							<latitude>46.87813450631111</latitude>
+							<altitude>0</altitude>
+							<heading>6.088554090846057</heading>
+							<tilt>0.1117269460669123</tilt>
+							<range>1130.501975379982</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>9.152912051565876,46.87977827840201,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Bündner Vorab (3028 m)</name>
+						<LookAt>
+							<longitude>9.154703873095386</longitude>
+							<latitude>46.87505002977696</latitude>
+							<altitude>0</altitude>
+							<heading>6.429880568666945</heading>
+							<tilt>0</tilt>
+							<range>1147.111143017281</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>9.156857326801342,46.87382874456873,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Häxenseeli</name>
+						<LookAt>
+							<longitude>9.119164168729458</longitude>
+							<latitude>46.85885678219128</latitude>
+							<altitude>0</altitude>
+							<heading>-5.49994149552532</heading>
+							<tilt>11.65532367429881</tilt>
+							<range>2004.472588575381</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>9.115478629472618,46.85813979264675,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Walenbrugg</name>
+						<LookAt>
+							<longitude>9.12653749377654</longitude>
+							<latitude>46.88764180827285</latitude>
+							<altitude>0</altitude>
+							<heading>-5.494561598248207</heading>
+							<tilt>11.65691203249047</tilt>
+							<range>2879.948005202124</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>9.125233540341833,46.89235608238184,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Wichlen</name>
+						<LookAt>
+							<longitude>9.12653749377654</longitude>
+							<latitude>46.88764180827285</latitude>
+							<altitude>0</altitude>
+							<heading>-5.494561598248207</heading>
+							<tilt>11.65691203249047</tilt>
+							<range>2879.948005202124</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>9.118636230826905,46.891606345593,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Sether Unterkunft</name>
+						<LookAt>
+							<longitude>9.119464986873073</longitude>
+							<latitude>46.85687465975767</latitude>
+							<altitude>0</altitude>
+							<heading>-4.99436413831828</heading>
+							<tilt>0</tilt>
+							<range>3204.456360376071</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin4</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>9.124771889683952,46.85558309029539,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 			</Folder>
 		</Folder>
 		<Folder>
 			<name>Graubünden</name>
-			<open>1</open>
 			<Folder>
 				<name>3000er - Wanderbar</name>
 				<open>1</open>
@@ -1937,7 +2037,7 @@ Fr: Becca d&apos;Audon</description>
 					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>10.09490000129847,46.62710000017604,0</coordinates>
+						<coordinates>10.09490000129847,46.62710000017605,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1962,10 +2062,8 @@ Fr: Becca d&apos;Audon</description>
 		</Folder>
 		<Folder>
 			<name>Luzern und Umgebung</name>
-			<open>1</open>
 			<Folder>
 				<name>3000er (Wanderbar)</name>
-				<open>1</open>
 				<Placemark>
 					<name>Bristen (3073 m)</name>
 					<LookAt>
@@ -2032,7 +2130,7 @@ Fr: Becca d&apos;Audon</description>
 					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>8.709281275991518,46.69852487743621,0</coordinates>
+						<coordinates>8.709281275991518,46.69852487743622,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2697,7 +2795,7 @@ Fr: Becca d&apos;Audon</description>
 				<open>1</open>
 				<Placemark>
 					<name>Gross Bigerhorn (3626 m)</name>
-					<description>Hier muss man zwar den Riedgletscher queren, um die Bordierhütte zu erreichen, aber das ist normalerweise problemlos (mit Stangen markiert). </description>
+					<description>Hier muss man zwar den Riedgletscher queren, um die Bordierhütte zu erreichen, aber das ist normalerweise problemlos (mit Stangen markiert).</description>
 					<LookAt>
 						<longitude>7.870336098086561</longitude>
 						<latitude>46.14511019981993</latitude>
